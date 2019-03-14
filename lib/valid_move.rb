@@ -16,7 +16,7 @@ def position_taken?(board, index)
 end
 
 board = [" "," "," "," ","X","X"," "," "," "]
-index = 4
+index = 5
 puts position_taken?(board,index)
 #  elsif board[index] == "X"|| board[index] == "O"
 #    return true
