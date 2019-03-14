@@ -21,8 +21,6 @@ end
 #  elsif board[index] == "X"|| board[index] == "O"
 #    return true
 
-end
-
 def convert_to_board_position(user_position)
   index = user_position.to_i-1
   return index
