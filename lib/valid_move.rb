@@ -15,7 +15,7 @@ def position_taken?(board, index)
   end
 end
 
-board = [" "," "," "," "," ","O"," "," "," "]
+board = [" "," "," "," "," "," "," "," "," "]
 index = 5
 puts position_taken?(board,index)
 #  elsif board[index] == "X"|| board[index] == "O"
